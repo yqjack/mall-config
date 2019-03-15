@@ -1,0 +1,17 @@
+server:
+  port: 8086
+spring:
+  application:
+    name: sms-service
+  rabbitmq:
+    virtual-host: /mall
+    username: mall
+    password: mall
+    host: 127.0.0.1
+
+mall:
+  sms:
+    accessKeyId:
+    accessKeySecret:
+    signName:
+    verifyCodeTemplate: SMS_148614415
